@@ -1,0 +1,24 @@
+@import service.YoutubeResultDTO
+@(message: List[YoutubeResultDTO])
+
+@main("Youtube Analyzer") {
+  	<img class="logo" src=@routes.Assets.versioned("images/Logo.png") alt="Logo">
+  	<div class="inputWrapper">
+  		<img class="searchIcon" src=@routes.Assets.versioned("images/search.svg") alt="Search">
+  		<input class="search" type="text" placeholder="Search"/>
+	</div>
+	<div class="searchButton" onclick="controllers.HomeController.test"><p class="text1">Search</p></div>
+	<a href="/similar">Content</a>
+	<div class="searchButton" onclick="window.location.href='/channel'"><p class="text1">Channel</p></div>
+	<div class="searchButton" onclick="window.location.href='/channel'"><p class="text1">TEST</p></div>
+	<div class="mainList">
+		<div class="mainContent">
+			<p class="text2">Nothing to show.</p>
+			@for(w <- message) {
+				<p>@w.getVideoTitle()</p>
+		        <p>@w.getOwner()</p>
+		        <p>@w.getSentiment()</p>
+		    }
+		</div>
+	</div>
+}

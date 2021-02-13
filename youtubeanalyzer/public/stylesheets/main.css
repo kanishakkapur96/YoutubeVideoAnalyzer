@@ -1,0 +1,104 @@
+
+[class="gallery"]{color:#F6F9ED;}
+
+[class="logo"]{
+	margin-top: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	width: 300px;
+	height: 80px;
+}
+
+[class="inputWrapper"]{
+	margin-top:50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	width: 800px;
+	height: 40px;
+	border-radius: 10px;
+	border: 2px solid #696969;
+	background-color: #FAFAFA;
+}
+
+[class="searchIcon"]{
+	height: 25px;
+	width: 25px;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+
+[class="search"]{
+	position: relative;
+	margin-left: 50px;
+	margin-right: 100px;
+	width: 90%;
+	height: 30px;
+	border: none;
+	transform: translateY(-32px);
+	font-size:24px;
+	font-weight: 200;
+	background-color: #FAFAFA;
+}
+
+[class="searchButton"]{
+display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: #169BF7;
+}
+
+[class="text1"] {
+	color: white;
+	font-size:24px;
+	transform: translateY(10px);
+	text-align: center;
+}
+
+[class="mainList"] {
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 10px;
+	background-color: #F4F4F4;
+}
+
+[class="mainContent"] {
+	padding: 50px;
+}
+
+[class="text2"] {
+	font-size:20px;
+	text-align: center;
+}
+
+
+
+[class="similarLogo"] {
+	position: fixed;
+	margin-left: 80px;
+	margin-top: 100px;
+}
+
+[class="similarContentWrapper"] {
+	position: relative;
+	margin-left: 350px;
+	margin-right: 80px;
+	margin-top: 50px;
+	background-color: #E9E9E9;
+	border-radius: 10px;
+}
+
+
+
+
+
+
